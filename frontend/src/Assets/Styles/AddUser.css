@@ -1,0 +1,48 @@
+.register {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: inherit;
+    margin: 20px auto;
+}
+
+.register h2 {
+    text-align: center;
+    color: #333;
+}
+
+.register form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.register input,
+.register select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.register button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register button:hover {
+    background-color: #45a049;
+}
+
+.register label {
+    display: block;
+    margin-bottom: 10px;
+}

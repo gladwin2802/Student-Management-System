@@ -1,0 +1,79 @@
+.adminAtnd select {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.adminAtnd table {
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 99%;
+    max-width: 100%;
+    max-height: 80vh;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.adminAtnd thead {
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.adminAtnd th,
+.adminAtnd td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.adminAtnd tbody {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.adminAtnd tbody tr:nth-child(even) {
+    background-color: #e1e1e1;
+}
+
+.adminAtnd select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.adminAtnd th,
+.adminAtnd td {
+    text-align: center;
+}
+
+.adminAtnd td button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adminAtnd td button:hover {
+    background-color: #45a049;
+}
+
+.adminAtnd label {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adminAtnd label span {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.adminAtnd img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
